@@ -98,8 +98,9 @@ const parent = {
   },
   sayname: function(){
     return "Hello, My name is " + this.name;
-  } 
+}
 };
+ 
 
 // Log the parent object's name
 console.log(parent.sayname())
@@ -108,7 +109,7 @@ console.log(parent.child.age)
 // Log the name and age of the grandchild
 
 // Have the parent speak
-
+console.log(parent.sayname())
 // Have the child speak
 
 // Have the grandchild speak
